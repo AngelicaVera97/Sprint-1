@@ -1,0 +1,123 @@
+.card{
+    width: 100%;
+    max-width: 900px;
+    padding: 25px;
+    width: 600px;
+    background-color: rgba(229, 226, 226, 0.315);
+    border-radius: 15px;
+}
+
+#host{
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    max-width: 900px;
+    padding: 25px;
+    justify-content: space-between;
+    width: 500px;
+    color: brown; 
+    font-weight: bold;   
+    font-size: 15px;
+}
+
+div .nums{
+    display: flex;
+    color: black;
+    align-items: right;
+}
+
+.nums p{
+    color: black;
+}
+
+.nums button{
+    height: 20px;
+    width: 20px;
+    border-radius: 25px;
+    border-width: .5;
+    color: black;
+    align-items: right;
+}
+
+#night{
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    max-width: 900px;
+    padding: 25px;
+    justify-content: space-between;
+    width: 500px;
+    color: brown; 
+    font-weight: bold; 
+    font-size: 15px;  
+}
+
+hr{
+    width: 500px;
+    height: 5px;
+    border-color: rgb(231, 231, 182);
+    background-color: rgb(231, 231, 182);
+    
+}
+
+.activities{
+    display: inline;
+    gap: 2rem;
+    max-width: 900px;
+    width: 100%;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.act{
+   display: flex;
+   color: black;
+   width: 500px;
+}
+
+.act p{
+    border-radius: 25px;
+    border-width: .5;
+    color: black;
+    justify-content: right;
+    margin: 15px;
+}   
+
+#total{
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    max-width: 900px;
+    padding: 30px;
+    justify-content: space-between;
+    width: 500px;
+    font-weight: bold;  
+    font-size: 20px; 
+}
+
+#boton{
+    display: flex;
+    max-width: 900px;
+    width: 500px;
+    padding: 20px;
+    justify-content: center;
+}
+
+#boton button{
+    padding: 15px;
+    font-weight: bold;  
+    font-size: 20px; 
+    border-radius: 15px;
+    outline-color: rgba(229, 226, 226, 0.315);
+
+}
+
+
+
+
+
+
+
+
+
+

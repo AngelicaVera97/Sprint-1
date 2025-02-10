@@ -1,0 +1,60 @@
+<div>
+  <div class="card">
+    <div id="host">
+      <p>HUESPEDES</p>      
+      <div class="nums">
+        <button class="btn-menos" (click)="restaH(numero)">-</button>
+        <p>{{ numero }}</p>
+        <button class="btn-mas" (click)="sumaH(numero)">+</button>
+      </div>
+    </div>
+    <div id="night">
+      <p>NOCHES</p>
+      <div class="nums">
+        <button class="btn-menos" (click)="restaN(numero1)">-</button>
+        <p>{{ numero1 }}</p>
+        <button class="btn-mas"  (click)="sumaN(numero1)">+</button>
+      </div>
+    </div>
+    
+    <hr />
+    
+    <div class="activities">
+      <div class="act">
+        <input type="checkbox"name="mascota" id="mascota" [(ngModel)]="pet" (click)="sumarCheck()"/>
+        <label for="mascotas"><p>+ MASCOTA $250.00 MXN</p></label>
+      </div>
+      <div class="act">
+        <input type="checkbox" name="calefaccion" id="calefaccion" [(ngModel)]="heat" (click)="sumarCheck1()"/>
+        <label for="calefaccion"><p>+ CALEFACCIÓN $500.00 MXN</p></label>
+      </div>
+      <div class="act">
+        <input type="checkbox" name="ruta" id="ruta" [(ngModel)]="route" (click)="sumarCheck2()"/>
+        <label for="ruta"><p>+ RUTA DE MONTAÑAS $150.00 MXN</p></label>
+      </div>
+      <div class="act">
+        <input type="checkbox" name="senderismo" id="senderismo" [(ngModel)]="hik" (click)="sumarCheck3()"/>
+        <label for="senderismo"><p>+ SENDERISMO $200.00 MXN</p></label>
+      </div>
+      <div class="act">
+        <input type="checkbox" name="vista" id="vista" [(ngModel)]="fall"(click)="sumarCheck4()"/>
+        <label for="vista"><p>+ VISITA LA CASCADA $50.00 MXN</p></label>
+      </div>      
+    </div>
+
+    <hr />
+
+    <div id="total">
+      <p>TOTAL CON IMPUESTOS</p>
+      <div class="total">
+        <p>${{ total }}</p>
+      </div>
+    </div>  
+    
+  
+    <div id="boton">
+        <button>RESERVAR</button>
+    </div>      
+    
+  </div>
+</div>
